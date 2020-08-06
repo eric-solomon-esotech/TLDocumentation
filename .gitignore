@@ -1,5 +1,17 @@
-# Created by https://www.toptal.com/developers/gitignore/api/macos,ssh
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos,ssh
+
+# Created by https://www.toptal.com/developers/gitignore/api/ssh,macos,composer,dotenv
+# Edit at https://www.toptal.com/developers/gitignore?templates=ssh,macos,composer,dotenv
+
+### Composer ###
+composer.phar
+/vendor/
+
+# Commit your application's lock file https://getcomposer.org/doc/01-basic-usage.md#commit-your-composer-lock-file-to-version-control
+# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
+# composer.lock
+
+### dotenv ###
+.env
 
 ### macOS ###
 # General
@@ -34,4 +46,4 @@ Temporary Items
 **/.ssh/*_id_*
 **/.ssh/known_hosts
 
-# End of https://www.toptal.com/developers/gitignore/api/macos,ssh
+# End of https://www.toptal.com/developers/gitignore/api/ssh,macos,composer,dotenv
